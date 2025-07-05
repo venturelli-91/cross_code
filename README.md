@@ -31,6 +31,7 @@ Cada subpasta contém exercícios (`ex1.js`, `ex2.js`, etc.) com diferentes prop
 2. Leia o enunciado (comentários no início de cada arquivo).
 3. Implemente a solução no arquivo correspondente.
 4. Teste seu código e compare com outras soluções.
+5. Caso faça commits, comente-os, para organizar melhor a resolução.
 
 ## Objetivo
 
@@ -47,18 +48,18 @@ Abaixo estão exemplos de prints de tela ilustrando a execução dos desafios. A
 <table>
   <tr>
     <td align="center">
-      <img src="prints/desafio1.png" alt="Desafio 1" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio1.png" alt="Desafio 1" width="300"/>
     </td>
     <td align="center">
-      <img src="prints/desafio2.png" alt="Desafio 2" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio2.png" alt="Desafio 2" width="300"/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="prints/desafio3.png" alt="Desafio 3" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio3.png" alt="Desafio 3" width="300"/>
     </td>
     <td align="center">
-      <img src="prints/desafio4.png" alt="Desafio 4" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio4.png" alt="Desafio 4" width="300"/>
     </td>
   </tr>
 </table>
