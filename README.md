@@ -66,4 +66,4 @@ Abaixo estão exemplos de prints de tela ilustrando a execução dos desafios. A
 
 ---
 
-**Bons estudos e boa codificação!**
+**Bons estudos e happy coding!**
