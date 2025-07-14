@@ -5,10 +5,9 @@ Implemente uma função que inverte um array sem utilizar o método .reverse().
 Exemplo:
 Input: [1, 2, 3, 4]  
 Output: [4, 3, 2, 1]
-
 */
 
-/* Resolução 1:
+//Resolução 1:
 
 function reverseArray(array) {
 	const reversedArray = [];
@@ -19,4 +18,3 @@ function reverseArray(array) {
 }
 
 console.log(reverseArray([1, 2, 3, 4]));
-*/

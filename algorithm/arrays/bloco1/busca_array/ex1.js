@@ -6,10 +6,9 @@ Caso o elemento não exista, retorne -1.
 Exemplo
 Input: ([3, 5, 7, 5], 5)  
 Output: 1
-
 */
 
-/*Resolução 1:
+//Resolução 1:
 
 function searchIndex(arr, target) {
 	for (let i = 0; i < arr.length; i++) {
@@ -19,5 +18,4 @@ function searchIndex(arr, target) {
 	}
 	return -1;
 }
-console.log(searchIndex([3, 0, 7, 5], 5)); // Output: 1
-*/
+console.log(searchIndex([3, 0, 7, 1], 5));

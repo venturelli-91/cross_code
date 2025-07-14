@@ -8,7 +8,7 @@ Output: 2
 
 */
 
-/* Resolução 1:
+//Resolução 1:
 
 function retornarElemento(array) {
 	const contagem = {};
@@ -27,4 +27,3 @@ function retornarElemento(array) {
 }
 
 console.log(retornarElemento([2, 3, 2, 4, 3, 2]));
-*/

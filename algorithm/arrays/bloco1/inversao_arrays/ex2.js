@@ -6,7 +6,6 @@ caso contrário, false.
 Exemplo:
 Input: [1, 2, 3, 2, 1]  
 Output: true
-
 */
 
 // Resolução 1:

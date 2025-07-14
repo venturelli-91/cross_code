@@ -8,7 +8,7 @@ Input: ([1, 2, 3, 4, 5], 4)
 Output: 3
 */
 
-/* Resolução 1:
+//Resolução 1:
 
 function buscaBinaria(array, number) {
 	let inicio = 0;
@@ -29,4 +29,3 @@ function buscaBinaria(array, number) {
 }
 
 console.log(buscaBinaria([1, 2, 3, 4, 5], 4));
-*/
