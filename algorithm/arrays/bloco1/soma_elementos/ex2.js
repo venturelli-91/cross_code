@@ -1,13 +1,27 @@
 /*
-Descrição:
-Dado um array de números inteiros, determine se existe pelo menos 
-um subarray contínuo cuja soma seja zero.
+Description:
+Given an array of integers, determine if there is at least one continuous subarray whose sum is zero.
 
-Regras:
-Retorne true se existir, false caso contrário.
+Rules:
+Return true if it exists, false otherwise.
 
-Exemplo:
+Example:
 Input: [1, 2, -3, 3]  
 Output: true
-
 */
+
+function hasZeroSum(array) {
+	const prefixSums = new Set([0]);
+	let sum = 0;
+
+	for (const num of array) {
+		sum += num;
+		if (prefixSums.has(sum)) {
+			return true;
+		}
+		prefixSums.add(sum);
+	}
+	return false;
+}
+
+console.log(hasZeroSum([1, 2, -3, 3]));

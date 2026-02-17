@@ -1,18 +1,16 @@
 /*
-Enunciado: Crie uma função que retorne true se a string for um palíndromo. Desconsidere maiúsculas e espaços.
+Description: Create a function that returns true if the string is a palindrome. Ignore uppercase and spaces.
 
-📥 Entrada:
-"Ame a ema"
-📤 Saída esperada:
+Input:
+"A man a plan a canal Panama"
+
+Expected Output:
 true
-
 */
 
-function palindromo(string) {
-	return (
-		string.toLowerCase().split(" ").join("") ===
-		string.toLowerCase().split(" ").join("").split("").reverse().join("")
-	);
+function isPalindrome(str) {
+	const cleaned = str.toLowerCase().split(" ").join("");
+	return cleaned === cleaned.split("").reverse().join("");
 }
 
-console.log(palindromo("Ame a emo"));
+console.log(isPalindrome("A man a plan a canal Panama"));

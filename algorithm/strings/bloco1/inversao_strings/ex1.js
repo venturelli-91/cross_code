@@ -1,14 +1,15 @@
 /*
-Enunciado: Escreva uma função que inverta os caracteres de uma string.
+Description: Write a function that reverses the characters of a string.
 
-📥 Entrada:
+Input:
 "developer"
 
-📤 Saída esperada:
+Expected Output:
 "repoleved"
- */
+*/
 
-function inverterString(str) {
+function reverseString(str) {
 	return Array.from(str).reverse().join("");
 }
-console.log(inverterString("developer"));
+
+console.log(reverseString("developer"));

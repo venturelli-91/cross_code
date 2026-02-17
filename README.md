@@ -1,4 +1,4 @@
-# CrossCode - Desafios de Programação
+# CrossCode - Programming Challenges
 
 <p>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
@@ -9,61 +9,59 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
 </p>
 
-Este projeto reúne uma coleção de desafios de programação, organizados por temas e níveis de dificuldade. As pastas estão dispostas em evolução e constante atualização, acompanhando o progresso dos estudos e a inclusão de novos conteúdos. O objetivo é praticar lógica, algoritmos e estruturas de dados, promovendo o aprendizado contínuo e o desenvolvimento de habilidades em programação.
+A collection of programming challenges organized by topic and difficulty level. Continuously updated to track learning progress and new content. Designed to practice logic, algorithms, and data structures.
 
-## Estrutura do Repositório
+## Repository Structure
 
-Atualmente, os desafios estão organizados em pastas temáticas, como:
+Challenges are organized by topic:
 
-- `algorithm/arrays/bloco_1_arrays_basic/`
-  - `busca_array/`
-  - `frequencia_elementos/`
-  - `inversao_arrays/`
-  - `maior_menor/`
-  - `numeros_duplicados/`
-  - `soma_elementos/`
+- `algorithm/arrays/` - Array manipulation and searching
+- `algorithm/strings/` - String operations and manipulation
+- `algorithm/hashing/` - Hash-based problems
+- `algorithm/objetos_mapas/` - Object and Map operations
+- `algorithm/stack_queue/` - Stack and Queue data structures
 
-Cada subpasta contém exercícios (`ex1.js`, `ex2.js`, etc.) com diferentes propostas para praticar.
+Each folder contains numbered exercises (`ex1.js`, `ex2.js`) with problem statements in comments.
 
-## Como Utilizar
+## Getting Started
 
-1. Navegue pelas pastas e escolha um desafio.
-2. Leia o enunciado (comentários no início de cada arquivo).
-3. Implemente a solução no arquivo correspondente.
-4. Teste seu código e compare com outras soluções.
-5. Caso faça commits, comente-os, para organizar melhor a resolução.
+1. Navigate to a challenge folder
+2. Read the problem statement (beginning of each file)
+3. Implement your solution
+4. Test your code
+5. Compare with alternative approaches
 
-## Objetivo
+## Goals
 
-- Praticar e aprimorar habilidades em lógica e programação.
-- Explorar diferentes abordagens para resolver problemas.
-- Compartilhar conhecimento e aprender colaborativamente.
+- Build problem-solving skills
+- Practice algorithms and data structures
+- Explore multiple solutions to the same problem
 
-Sinta-se à vontade para contribuir com novos desafios ou melhorias!
+Feel free to contribute improvements and new challenges!
 
-## Prints e Exemplos de Execução
+## Examples
 
-Abaixo estão exemplos de prints de tela ilustrando a execução dos desafios. As imagens estão localizadas na pasta `prints/`.
+Sample execution outputs are stored in the `prints/` folder.
 
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio1.png" alt="Desafio 1" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio1.png" alt="Challenge 1" width="300"/>
     </td>
     <td align="center">
-      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio2.png" alt="Desafio 2" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio2.png" alt="Challenge 2" width="300"/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio3.png" alt="Desafio 3" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio3.png" alt="Challenge 3" width="300"/>
     </td>
     <td align="center">
-      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio4.png" alt="Desafio 4" width="300"/>
+      <img src="https://github.com/venturelli-91/cross_code/raw/main/prints/desafio4.png" alt="Challenge 4" width="300"/>
     </td>
   </tr>
 </table>
 
 ---
 
-**Bons estudos e boa codificação!**
+**Happy coding!**

@@ -1,11 +1,11 @@
 /*
-Enunciado: Dada uma frase, inverta cada palavra individualmente, mantendo a ordem.
+Description: Given a sentence, reverse each word individually, maintaining the order.
 
-📥 Entrada:
-"Olá mundo React"
+Input:
+"Hello World React"
 
-📤 Saída esperada:
-"álO odnum tcaeR"
+Expected Output:
+"olleH dlroW tcaeR"
 */
 
 function reverseWords(str) {
@@ -15,4 +15,4 @@ function reverseWords(str) {
 		.join(" ");
 }
 
-console.log(reverseWords("Olá mundo React"));
+console.log(reverseWords("Hello World React"));

@@ -1,10 +1,16 @@
 /*
-Dado um array [1, 2, 2, 3, 3, 3], conte a frequência de cada número e retorne como objeto.
+Given an array [1, 2, 2, 3, 3, 3], count the frequency of each number and return as an object.
 
-Exemplo de saída esperada:
+Expected output example:
 
-js
-Copiar
-Editar
 { 1: 1, 2: 2, 3: 3 }
 */
+
+function countNumberFrequency(array) {
+	return array.reduce((freq, num) => {
+		freq[num] = (freq[num] || 0) + 1;
+		return freq;
+	}, {});
+}
+
+console.log(countNumberFrequency([1, 2, 2, 3, 3, 3]));

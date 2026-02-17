@@ -1,26 +1,25 @@
 /*
-Enunciado: Conte o número de vogais (a, e, i, o, u — maiúsculas ou minúsculas) em uma string.
+Description: Count the number of vowels (a, e, i, o, u — uppercase or lowercase) in a string.
 
-📥 Entrada:
-"Programação é incrível!"
+Input:
+"Programming is incredible!"
 
-📤 Saída esperada: 9
+Expected Output: 9
 
-Obs: Considere as vogais acentuadas como vogais normais.
-
+Note: Consider accented vowels as normal vowels.
 */
 
-function contarVogais(str) {
-	const vogais = "aáãeéiíoóuúAEIOU";
-	let contador = 0;
+function countVowels(str) {
+	const vowels = "aáãeéiíoóuúAEIOU";
+	let count = 0;
 
 	for (let i = 0; i < str.length; i++) {
-		if (vogais.includes(str[i])) {
-			contador++;
+		if (vowels.includes(str[i])) {
+			count++;
 		}
 	}
 
-	return contador;
+	return count;
 }
 
-console.log(contarVogais("Programação é incrível!"));
+console.log(countVowels("Programming is incredible!"));

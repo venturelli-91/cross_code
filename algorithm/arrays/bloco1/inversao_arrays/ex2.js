@@ -1,14 +1,12 @@
 /*
-Descrição:
-Dado um array, retorne true se ele for um palíndromo (lê-se igual da esquerda para direita e vice-versa), 
-caso contrário, false.
+Description:
+Given an array, return true if it is a palindrome (reads the same from left to right and vice versa),
+otherwise return false.
 
-Exemplo:
+Example:
 Input: [1, 2, 3, 2, 1]  
 Output: true
 */
-
-// Resolução 1:
 
 function isPalindrome(array) {
 	const reversedArray = array.slice().reverse();

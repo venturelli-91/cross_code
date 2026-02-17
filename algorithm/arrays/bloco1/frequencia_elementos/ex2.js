@@ -1,21 +1,19 @@
 /*
-Descrição:
-Retorne um objeto (mapa) que contenha a frequência de cada elemento do array.
+Description:
+Return an object containing the frequency of each array element.
 
-Exemplo:
+Example:
 Input: [1, 2, 2, 3, 3, 3]  
 Output: {1: 1, 2: 2, 3: 3}
 */
 
-//Resolução 1:
+function calculateFrequency(array) {
+	const frequency = {};
 
-function calcularFrequencia(array) {
-	const frequencia = {};
-
-	for (const numero of array) {
-		frequencia[numero] = (frequencia[numero] || 0) + 1;
+	for (const num of array) {
+		frequency[num] = (frequency[num] || 0) + 1;
 	}
-	return frequencia;
+	return frequency;
 }
 
-console.log(calcularFrequencia([1, 2, 2, 3, 3, 3]));
+console.log(calculateFrequency([1, 2, 2, 3, 3, 3]));

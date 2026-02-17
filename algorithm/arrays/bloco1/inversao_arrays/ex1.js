@@ -1,13 +1,11 @@
 /*
-Descrição:
-Implemente uma função que inverte um array sem utilizar o método .reverse().
+Description:
+Implement a function that reverses an array without using the .reverse() method.
 
-Exemplo:
+Example:
 Input: [1, 2, 3, 4]  
 Output: [4, 3, 2, 1]
 */
-
-//Resolução 1:
 
 function reverseArray(array) {
 	const reversedArray = [];

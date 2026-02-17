@@ -1,24 +1,23 @@
 /*
-Enunciado: Crie um objeto com a contagem de cada caractere da string.
+Description: Create an object with the count of each character in the string.
 
-📥 Entrada:
+Input:
 "banana"
 
-📤 Saída esperada:
+Expected Output:
 { b: 1, a: 3, n: 2 }
-
 */
 
-function contarCaracteres(str) {
-	const contagem = {};
+function countCharacters(str) {
+	const count = {};
 	for (let char of str) {
-		if (contagem[char]) {
-			contagem[char]++;
+		if (count[char]) {
+			count[char]++;
 		} else {
-			contagem[char] = 1;
+			count[char] = 1;
 		}
 	}
-	return contagem;
+	return count;
 }
 
-console.log(contarCaracteres("banana")); // { b: 1, a: 3, n: 2 }
+console.log(countCharacters("banana")); // { b: 1, a: 3, n: 2 }

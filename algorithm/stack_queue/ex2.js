@@ -1,17 +1,17 @@
 /*
-Implemente uma estrutura de dados chamada MinStack que funciona como uma pilha, mas com uma operação extra: retornar o menor elemento em tempo constante.
+Implement a data structure called MinStack that works like a stack, but with an extra operation: return the smallest element in constant time.
 
-A pilha deve suportar as seguintes operações:
+The stack should support the following operations:
 
-push(x): adiciona um elemento ao topo.
+push(x): adds an element to the top.
 
-pop(): remove o elemento do topo.
+pop(): removes the element from the top.
 
-top(): retorna o elemento do topo.
+top(): returns the element at the top.
 
-getMin(): retorna o menor elemento da pilha em O(1).
+getMin(): returns the smallest element in the stack in O(1).
 
-Exemplo de uso:
+Usage example:
 
 push(-2), push(0), push(-3)
 getMin() -> -3

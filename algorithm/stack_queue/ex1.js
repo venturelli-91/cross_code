@@ -1,17 +1,17 @@
 /*
-Dada uma string s que contém apenas os caracteres '(' , ')' , '{' , '}' , '[' , ']', determine se a string é válida.
+Given a string s that contains only the characters '(' , ')' , '{' , '}' , '[' , ']', determine if the string is valid.
 
-Uma string é válida se:
+A string is valid if:
 
-Cada parêntese de abertura possui um fechamento correspondente.
+Each opening parenthesis has a corresponding closing parenthesis.
 
-Os parênteses são fechados na ordem correta.
+Parentheses are closed in the correct order.
 
-Exemplo 1:
-Entrada: "()[]{}"
-Saída: true
+Example 1:
+Input: "()[]{}"
+Output: true
 
-Exemplo 2:
-Entrada: "(]"
-Saída: false
+Example 2:
+Input: "(]"
+Output: false
 */

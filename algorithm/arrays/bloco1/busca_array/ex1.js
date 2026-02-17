@@ -1,14 +1,12 @@
 /*
-Descrição:
-Implemente uma função que retorna o índice da primeira ocorrência de um elemento que se repete em um array. 
-Caso o elemento não exista, retorne -1.
+Description:
+Implement a function that returns the index of the first occurrence of an element in an array.
+If the element does not exist, return -1.
 
-Exemplo
+Example:
 Input: ([3, 5, 7, 5], 5)  
 Output: 1
 */
-
-//Resolução 1:
 
 function searchIndex(arr, target) {
 	for (let i = 0; i < arr.length; i++) {
@@ -18,4 +16,5 @@ function searchIndex(arr, target) {
 	}
 	return -1;
 }
+
 console.log(searchIndex([3, 0, 7, 1], 5));

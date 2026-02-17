@@ -1,9 +1,17 @@
-/*Dada a string "banana", crie um objeto que mostre quantas vezes cada letra aparece.
+/*
+Given the string "banana", create an object that shows how many times each letter appears.
 
-Exemplo de saída esperada:
+Expected output example:
 
-js
-Copiar
-Editar
 { b: 1, a: 3, n: 2 }
 */
+
+function countLetterFrequency(str) {
+	const frequency = {};
+	for (const letter of str) {
+		frequency[letter] = (frequency[letter] || 0) + 1;
+	}
+	return frequency;
+}
+
+console.log(countLetterFrequency("banana"));

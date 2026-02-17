@@ -1,22 +1,20 @@
 /*
-Descrição:
-Dado um array de números inteiros, retorne o segundo maior valor único presente no array.
+Description:
+Given an array of integers, return the second largest unique value present in the array.
 
-Regras:
-O array terá pelo menos dois números distintos.
-Desconsidere valores repetidos ao buscar o segundo maior.
+Rules:
+The array will have at least two distinct numbers.
+Disregard repeated values when searching for the second largest.
 
-Exemplo:
+Example:
 Input: [10, 5, 9, 10, 3]  
 Output: 9
-
 */
 
-/* Resolução 1: 
-
-function segundoMaior(array) {
-    const numerosUnicos = [...new Set(array)];
-    numerosUnicos.sort((a, b) => b - a);
-    return numerosUnicos[1];
+function secondLargest(array) {
+	const uniqueNumbers = [...new Set(array)];
+	uniqueNumbers.sort((a, b) => b - a);
+	return uniqueNumbers[1];
 }
-*/
+
+console.log(secondLargest([10, 5, 9, 10, 3]));
